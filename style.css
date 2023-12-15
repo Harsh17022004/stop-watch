@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background: #2c2b2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  height: 400px;
+  width: 500px;
+}
+
+.box .timer {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid #fff;
+  font-size: 30px;
+}
+.box .timer .timer_item {
+  height: 80%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+.box .btns {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .btns button {
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 20px;
+  background: transparent;
+  cursor: pointer;
+}
